@@ -43,7 +43,7 @@ Technical test
         -------------------------------------------------------------------------------------------------------------------------------------
         GET    | pasenger   |  id                   |Optener un pasajero por el ID
         -------------------------------------------------------------------------------------------------------------------------------------
-        GET    | pasenger   | id  (ID del pasajero) |Para un pasajero solicitando un viaje, una 
+        GET    | pasenger   | id                    |Para un pasajero solicitando un viaje, una 
                |            |                       |lista de los 3 conductores mas cercanos al punto de partida.
         ------------------------------------------------------------------------------------------------------------------------------------
         GET    | driver     |                       |Optener una  lista de todos los conductores
