@@ -1,5 +1,3 @@
-CREATE DATABASE bbk_populat_test
-
 -- ###############################################
 --  PASSENGER TABLE
 -- ###############################################
@@ -143,6 +141,7 @@ create table status (
 
 insert into status (description) values ('active');
 insert into status (description) values ('cancelled');
+insert into status (description) values ('completed');
 
 
 -- ###############################################
