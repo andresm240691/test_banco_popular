@@ -1,6 +1,6 @@
 # README #
 
-Technical test
+Technical test 
 
 ### Base Requeriments ###
 
@@ -34,7 +34,7 @@ Technical test
 
 ## Services
 
-* It has been attached to the collection of calls to services. You can use Postman or Insomnia as a REST client
+* It has been attached to the example.JSON collection of service calls. You can use Postman or Insomnia as a REST client
 
         -------------------------------------------------------------------------------------------------------------------------------------
         Method | Name       | Parameters            | Question
@@ -44,38 +44,15 @@ Technical test
         GET    | pasenger   |  id                   |Optener un pasajero por el ID
         -------------------------------------------------------------------------------------------------------------------------------------
         GET    | pasenger   | id  (ID del pasajero) |Para un pasajero solicitando un viaje, una 
-            |            |                       |lista de los 3 conductores mas cercanos al punto de partida.
+               |            |                       |lista de los 3 conductores mas cercanos al punto de partida.
         ------------------------------------------------------------------------------------------------------------------------------------
         GET    | driver     |                       |Optener una  lista de todos los conductores
         ------------------------------------------------------------------------------------------------------------------------------------
         GET    | driver     |  id                   |Optener un conductor por el ID
         ------------------------------------------------------------------------------------------------------------------------------------
-        GET   | travel    |                        |Obtenga una lista de todos los viajes activos
+        GET   | travel    |                         |Obtenga una lista de todos los viajes activos
         ------------------------------------------------------------------------------------------------------------------------------------
-        POST  | travel    |                        |Crear una nua solcicitud de viaje asignando un conductor a un pasajero
+        POST  | travel    |                         |Crear una nua solcicitud de viaje asignando un conductor a un pasajero
         ------------------------------------------------------------------------------------------------------------------------------------
-        PUT   | travel    |   id                   |Completar un viaje
+        PUT   | travel    |   id                    |Completar un viaje
 
-
-
-
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
